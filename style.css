@@ -1,0 +1,296 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Seymour One', sans-serif;
+}
+
+section {
+    height: 100vh;
+}
+
+section#hero{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+background: url(Proye12.jpeg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+border: 3px solid black;
+
+}
+
+section#hero h1{
+
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Seymour One', sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px black;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-transform:uppercase;
+}
+
+section#hero h4{
+
+    font-size: 1.5rem;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 3px 2px black;
+    text-transform:uppercase;
+
+}
+
+section#hero p{
+
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: Roboto,sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    margin-right:50px;
+    margin-left: 50px;
+    color: white;
+    text-shadow: 3px 2px rgb(0, 0, 0);
+   
+
+}
+
+
+h2{
+    
+    border: 3px solid black;
+    font-family: 'Seymour One', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    text-shadow: 1px 1px #dcdefe;
+}
+
+h3{
+
+    border-bottom: 5px solid rgb(4, 66, 192);
+    border-top: 5px solid rgb(4, 66, 192);
+    color: black;
+    font-family: 'Seymour One', sans-serif;
+    text-align: center;
+    
+
+}
+
+h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+
+#misproyectos{
+
+    text-align: center;
+    border: 3px solid rgb(4, 66, 192);
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-top: 20px;
+    background-color: rgb(127, 153, 255);
+}
+
+
+.projects-list {
+
+    height:auto;
+    background-color: whitesmoke ;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 0px;
+   
+}
+
+.project-detail {
+    
+    border: 5px solid rgb(4, 66, 192);
+    border-radius: 10px;
+    background-color: rgb(127, 153, 255);
+    width: 300px;
+    margin: 20px;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.project-detail img{
+
+    border-radius: 5px;
+    width: 100%; 
+    height: 200px;
+}
+
+.project-detail a{
+
+    background-color: rgb(127, 153, 255);
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    text-shadow: 2px 2px #ffffff;
+    font-size:medium;
+    cursor: pointer;
+    display: inline-block;
+
+}
+
+section#contact{
+
+    border: 3px solid black;
+    background-image: url(Proye5.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+
+
+
+form{
+
+    border: solid 5px blue;
+    background: #24303c;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 400px;
+ 
+
+}
+
+.field{
+    width: 100%;
+    border: solid 1px #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+
+.botons{
+
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+
+footer{
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    border: 3px solid black;
+}
+
+body{
+    
+    margin: 0px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    align-items: center;
+    padding: 10px;
+    border: 3px solid black;
+    background-color: rgb(130, 197, 255);
+}
+
+
+a {
+
+font-family: 'Seymour One', sans-serif;
+text-decoration: none;
+color: black;
+text-shadow: 2px 2px #ffffff;
+font-size: medium;
+
+}
+
+.logo {
+
+    display: flex;
+    
+}
+
+.logo img {
+
+height: 50px;
+margin-right: 10px;
+margin-left: 0px;
+}
+
+nav a {
+
+    font-weight: 800;
+    padding-right: 10px;
+    padding-left: 5px;
+    
+}
+
+
+.nav-link img {
+
+border-radius:  50px;
+height: 50px;
+
+}
+
+#Click{
+
+    background-color: blue;
+    font-size: xx-large;
+    border: solid 3px white;
+    border-radius: 10px;
+    width: 50%;
+    font-family: 'Seymour One', sans-serif;
+    color: white;
+
+}
